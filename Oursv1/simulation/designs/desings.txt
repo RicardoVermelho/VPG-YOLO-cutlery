@@ -1,0 +1,5 @@
+ur3_t11_VPG.ttt --> simulação básica sem alterações e com valores negativos de x;
+
+ur3_t11_VPG2 (old).ttt --> simulação contendo copo central e os 3 outros copos para separar objetos. Ainda com valores negativos de x;
+
+ur3_t11_VPG2 - backup (atual).ttt --> simulação atual com 4 copos e valores de x positivos;

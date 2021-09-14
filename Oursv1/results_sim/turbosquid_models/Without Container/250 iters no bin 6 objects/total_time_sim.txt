@@ -1,0 +1,2 @@
+Total time elapsed in seconds: 6336
+Total time elapsed in minutes: 105

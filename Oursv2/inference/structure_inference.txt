@@ -1,0 +1,21 @@
+***************************************************************vv
+STRUCTURE OF INFERENCE FOLDER
+***************************************************************vv
+
+inference
+    |
+    |___ BBOX_xyxy
+    |
+    |___ labels
+    |
+    |___ output
+    |
+    |___ previous_output
+
+BBOX_xyxy -> Contains txt files. Each txt file contains coordinates of objects' bounding boxes for each image.
+
+labels -> Contains txt files. Each txt file contains total number of objects for each type of object. Each file represents the labels for the bounding boxes of each image.
+
+output -> In each iteration of YoLo, this folder contains the result image of the detection module from YoLo. On the next iteration, this folder is empty and ready to receive the next output.
+
+previous_output -> This folder will contain all the images resulting from the application of YoLo onto the color images from log folder of VPG.

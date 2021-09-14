@@ -1,0 +1,5 @@
+Total time elapsed in seconds: 8243
+Total time elapsed in minutes: 137
+
+Total average of grasp success:  12.45
+Total average of push success:  79.1

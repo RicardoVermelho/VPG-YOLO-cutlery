@@ -1,0 +1,4 @@
+fork 0.43
+fork 0.61
+knife 0.73
+spoon 0.96

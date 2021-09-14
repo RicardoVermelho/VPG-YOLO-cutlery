@@ -1,0 +1,6 @@
+Cutlery objects in order:
+0 -> fork
+1 -> knife
+2 -> spoon
+
+Com redução de tamanho, redução de faces (alguns) e aumento de espessura (solidify - blender version)
