@@ -1,26 +1,12 @@
 # Cutlery Visual Pushing-for-Grasping
 
-<div style="width: 100%; margin-bottom: 20%">
-    <div style="width: 30%; height: 250px; float: left;"> 
-        <img src="UR3.png" width="200" height="200">
-    </div>
-    <div style="margin-left: 35%; height: 100px;"> 
-        <p style="margin-top: 15%;">Collaborative robots, or commonly described as <b>Cobots</b>, play an important role in our professional lives nowadays, helping humans perform tasks that normally would take a lot of time when done by a person.</p>
-        These robots saw a rapid growth in their usage since the last 5 years and the perspective shows that the <a href="https://www.roboticsbusinessreview.com/manufacturing/cobot-market-outlook-strong/">number of Cobots Sold</a> until 2027 will hit an astounding number of 7500 aprox.
-    </div>
-</div>
+<p style="margin-top: 15%;">Collaborative robots, or commonly described as <b>Cobots</b>, play an important role in our professional lives nowadays, helping humans perform tasks that normally would take a lot of time when done by a person.</p>
+These robots saw a rapid growth in their usage since the last 5 years and the perspective shows that the <a href="https://www.roboticsbusinessreview.com/manufacturing/cobot-market-outlook-strong/">number of Cobots Sold</a> until 2027 will hit an astounding number of 7500 aprox.
 <br/>
 However, there are some tasks that are sensible and difficult for a robot to perform without failing. Amongst them, we focused our work on grasping one particular type of objects. The <b>cutlery</b> objects, such as spoons, knives and forks.
 <br/><br/>
-<div style="width: 100%;">
-    <div style="width: 65%; float: left;"> 
-        <p>These kind of objects is particularly difficult to manage and execute actions on, mainly due to their thin structure and material, that sometimes can make them hard to identify and therefore, also hard to grasp.</p>
-        <p>This work features two different data sets. First, we ran our work with 3D cutlery object models retrieved from <a href="http://ycb-benchmarks.s3-website-us-east-1.amazonaws.com/">YCB dataset</a> and lastly, we ran second experiment with 3D cutlery object models retrieved from <a href="https://www.turbosquid.com/">TurboSquid</a>.</p>
-    </div>
-    <div style="height: 200px;"> 
-        <img src="new_cutlery.png" width="200" height="200">
-    </div>
-</div>
+<p>These kind of objects is particularly difficult to manage and execute actions on, mainly due to their thin structure and material, that sometimes can make them hard to identify and therefore, also hard to grasp.</p>
+<p>This work features two different data sets. First, we ran our work with 3D cutlery object models retrieved from <a href="http://ycb-benchmarks.s3-website-us-east-1.amazonaws.com/">YCB dataset</a> and lastly, we ran second experiment with 3D cutlery object models retrieved from <a href="https://www.turbosquid.com/">TurboSquid</a>.</p>
 <hr class="solid">
 <br/>
 In this work, you'll be able to see two variants of the work developed, which we called <b>Oursv1</b> and <b>Oursv2</b>. They were only tested in simulation and are based on the pushing and grasping algorithm <a href="https://github.com/andyzeng/visual-pushing-grasping">Visual Pushing-for-Grasping</a>, which is already prepared to work in simulation and reality with an Universal Robot (UR3) and the object detection model <a href="https://github.com/ultralytics/yolov5">Yolov5</a>. The only difference between these versions, is the way we preprocess the image taken during simulation with the object detection model to obtain the coordinates of the object we want to grasp or push.
