@@ -2,7 +2,7 @@
 
 <div style="width: 100%; margin-bottom: 20%">
     <div style="width: 30%; height: 250px; float: left;"> 
-        <img src="ur3.png" width="200" height="200">
+        <img src="UR3.png" width="200" height="200">
     </div>
     <div style="margin-left: 35%; height: 100px;"> 
         <p style="margin-top: 15%;">Collaborative robots, or commonly described as <b>Cobots</b>, play an important role in our professional lives nowadays, helping humans perform tasks that normally would take a lot of time when done by a person.</p>
